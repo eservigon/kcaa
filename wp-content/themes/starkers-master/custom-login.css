@@ -1,0 +1,43 @@
+/* Custom Wordpress Login Page Style */
+/* By WPCookies.com */
+
+/* Page Background */
+html {
+	background-color:#FFFFFF; 
+	margin: auto;
+	font-weight:bold;
+}
+/* Wordpress Logo Replacement (Don't forget to change width and height */
+.login h1 a {
+	background:url('images/garneylogin-logo.jpg') 0 0 no-repeat !important;
+	width:278px;
+	height:145px;
+	margin-left: 20px;
+	margin-bottom: 0px;
+	padding-bottom: 25px;
+}
+/* Top Bar Background Color */
+body.login {
+	border-top-color:#94b02c;
+}
+.message {
+	margin-bottom: 0px;
+}
+/* Login Button */
+#wp-submit {
+	background: #625f51;
+	border: #625f51;
+}
+/* Lost Password Link */
+.login #nav a, .login #nav a:hover {
+	color: #94b02c!important;;
+}
+/* Top Bar Link */
+.login p#backtoblog a:link, .login p#backtoblog a:visited {
+	color:#625f51;
+	font-weight: bold;
+}
+.login p#backtoblog a:hover, .login p#backtoblog a:active {
+	color:#94b02c;
+	text-decoration:underline;
+}

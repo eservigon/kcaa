@@ -1,0 +1,68 @@
+/*
+Theme Name: 	Indicia Design Customized
+Description: 	Your customized theme by Indicia Design
+Author: 		Indicia Design
+Author URI: 	http://www.indiciadesign.com
+*/
+
+/*
+===========================
+CONTENTS:
+
+01 Imports
+02 Site Styles
+03 Media Queries
+===========================
+*/
+
+/* ---------------------------------------------------------------------------------------------------------- 
+01 Imports ----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+@import "css/normalize.css";
+@import "css/skeleton.css";
+
+/* ---------------------------------------------------------------------------------------------------------- 
+02 Site Styles ----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+header { width: 100%; height: 125px; background: #FFF; text-align: justify; -webkit-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.1); -moz-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.1); box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.1); }
+
+.menu-primary-navigation-container { text-align: center; height: 125px; text-transform: uppercase; font-weight: 700;  }
+.menu-primary-navigation-container ul {margin-bottom: 0; position: relative; top: 50%; transform: translate(0,-50%); }
+.menu-primary-navigation-container ul > li { list-style: none; display: inline-block; margin: 0 0 0 2%; }
+.menu-primary-navigation-container ul > li:first-child { margin-left: 0; }
+.menu-primary-navigation-container ul > li a, .menu-primary-navigation-container ul > li a:visited { color: #999 }
+.menu-primary-navigation-container ul > li a:hover { color: #99cc33; -webkit-transition: .4s; transition: .4s;  } 
+
+.blue-banner { background: #0054a6; color: #FFF; text-align: center; text-transform: uppercase; font-weight: 400; letter-spacing: 1px;  padding: 1.25% 0; font-size: 18px; z-index: 999; position: absolute }
+.blue-banner p { margin-bottom: 0; }
+.blue-banner .green { font-family: 'Droid Serif', serif; color: #99cc33; }
+
+.intro { background-image: url('images/home-temp.jpg'); background-size: cover; color: #fff }
+
+/* ---------------------------------------------------------------------------------------------------------- 
+03 Media Queries ----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+/* Larger than mobile */
+@media (min-width: 400px) { }
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {  }
+
+/* Larger than desktop */
+@media (min-width: 1000px) {  }
+
+/* Larger than Desktop HD */
+@media (min-width: 1441px) { 
+	
+.menu-primary-navigation-container ul > li { list-style: none; display: inline-block; margin: 0 0 0 5%; }	
+	
+}
+
+
+
